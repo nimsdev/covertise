@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Hevario - A Simle Marketing Solution</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="wow/css/libs/animate.css">
+    <link rel="stylesheet" href="wow/css/site.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type='text/javascript'>
+        $(window).load(function () {
+            var fixboxTop = $('.fixbox').offset().top;
+            $(window).scroll(function () {
+                var currentScroll = $(window).scrollTop();
+                if (currentScroll >= fixboxTop) {
+                    $('.fixbox').css({
+                        position: 'fixed'
+                        , top: '0px'
+                        , right: '0px'
+                    , });
+                }
+                else {
+                    $('.fixbox').css({
+                        position: 'static'
+                    });
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="heading"><img class="headlogo" src="photos/logo-white-bubbler-one.png" alt="logo">
+        <div class="menuheading">
+        <a href="">Marketing</a>
+        <a href="">Web &amp; Mobile</a>
+        
+            <div class="dropdown">
+  <a href="">Team</a>
+  <div class="dropdown-content">
+    <a class="membername">Jerry</a>
+    <a class="membername">Dave</a>
+    <a class="membername">Sasha</a>
+    <a class="membername">Timothy</a>
+    <a class="membername">Chloe</a>
+                </div>
+            </div>
+        <a href="">Contact</a>
+        </div>
+        <h2 class="motto">effective marketing &amp; management </h2></div>
+    <!--heading-->
+    <div class="secint">
+        <center>
+            <div class="secbox">
+                <section class="wow fadeInUp" data-wow-offset="100" data-wow-delay="0.45s" style="height:auto;;margin-top:0;">
+                    <p>Simple Marketing Solutions For Small Businesses.</p>
+                </section>
+                <section class="wow fadeInUp" data-wow-offset="100" data-wow-delay="0.85s" style="height:auto;;margin-top:0;">
+                    <p class="sectp">Let us promote while you focus on your day to day operations</p>
+                </section>
+                <section class="wow fadeInUp" data-wow-offset="100" data-wow-delay="1.25s" style="height:auto;;margin-top:0;"> <img src="photos/ipad4.png" alt="iPad mockup photo"> </section>
+            </div>
+            <!-- secbox -->
+        </center>
+    </div>
+    <!-- secint -->
+    <!-- bottom -->
+    <script src="wow/dist/wow.min.js"></script>
+    <script>
+        wow = new WOW({
+            animateClass: 'animated'
+            , offset: 100
+            , callback: function (box) {
+                console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+            }
+        });
+        wow.init();
+        document.getElementById('moar').onclick = function () {
+            var section = document.createElement('section');
+            section.className = 'section--purple wow fadeInDown';
+            this.parentNode.insertBefore(section, this);
+        };
+    </script>
+</body>
+
+</html>
