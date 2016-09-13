@@ -15,7 +15,7 @@
     transition-property: color;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
-    border: 2px solid white;
+    border: 1px solid rgba(255, 255, 255, 0.75);
     background-color: transparent;
     letter-spacing: 4px;
     border-radius: 35px;
