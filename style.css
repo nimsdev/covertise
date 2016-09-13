@@ -353,7 +353,7 @@ td.desc {
     position:relative;
     right:-20px;
     background-color:white;
-    top:25px;
+/*    top:25px;*/
     
 }
 
@@ -366,7 +366,7 @@ td.desc {
     position:relative;
     left:-20px;
     background-color:white;
-    top:25px;
+/*    top:25px;*/
     
 }
 
@@ -384,7 +384,7 @@ td.desc {
 .pricemainhead2 {
    height:45px;
     color:#666;
-    background:linear-gradient(rgba(255, 255, 255, 0.91), rgba(224, 224, 224, 0.76));
+    background:rgba(244, 244, 244, 0.51);
     line-height:45px;
     font-size:12pt;
     font-weight:lighter;
@@ -396,7 +396,7 @@ td.desc {
 .pricemainhead3 {
    height:45px;
     color:#666;
-    background:linear-gradient(rgba(255, 255, 255, 0.91), rgba(224, 224, 224, 0.76));
+    background:rgba(244, 244, 244, 0.51);
     line-height:45px;
     font-size:12pt;
     font-weight:lighter;
