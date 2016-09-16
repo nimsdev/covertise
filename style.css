@@ -15,9 +15,18 @@ body {
 .heading {
     height: 600px;
     width: 100%;
-    background: linear-gradient(rgba(255, 140, 105, 0.92), rgba(50, 190, 232, 0.71)), url(photos/work3.jpeg) fixed;
+    background: linear-gradient(rgba(255, 140, 105, 0.92), rgba(50, 190, 232, 0.91)), url(photos/work3.jpeg) fixed;
     background-size: 100% 100%;
     background-position: center center;
+}
+
+p.tagline {
+    color: rgba(255, 255, 255, 0.86);
+    letter-spacing: 2px;
+    font-weight: 300;
+    text-align: center;
+    position: relative;
+    top: -25px;
 }
 
 img.headlogo {
@@ -75,9 +84,12 @@ div.menuheading a:hover {
 
 .dropdown:hover .dropdown-content {
     display: block;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
 }
 
-a.membername {
+a.membernme {
     display: block;
     color: white !important;
     padding-top: 5px;
@@ -85,15 +97,22 @@ a.membername {
     font-size: 12pt;
     cursor: pointer;
     background-color: rgba(249, 249, 249, 0.12);
-    padding: 5px 10px;
+    padding: 10px 15px;
     width: 100%;
     display: block;
     margin-left: 0px;
     margin-right: 0px;
 }
 
-a.membername:hover {
-    background-color: rgba(249, 249, 249, 0.24);
+a.membername:hover_ {
+    background-color: rgba(249, 249, 249, 0.44);
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+}
+
+a.membername:active {
+    background-color: rgba(249, 249, 249, 0.22);
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
@@ -140,4 +159,351 @@ p.sectp {
     /*    border:2px solid red;*/
     width: 900px;
     display: block;
+}
+
+tr.kts {
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+}
+
+td.ktsimg {
+    padding: 0 auto;
+    margin: 0 auto;
+    text-align: center !important;
+    vertical-align: center;
+    border-collapse: collapse;
+}
+
+td.ktsimg img {
+    border-collapse: collapse;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 3px;
+}
+
+td.ktsname {
+    padding: 2px 25px;
+    text-align: center !important;
+    border-collapse: collapse
+}
+
+td.ktsname a {
+    color: white;
+}
+
+td.ktsname:hover a,
+td.ktsimg:hover a {
+    color: white;
+}
+
+img.profile {
+    width: 40px;
+    height: 40px;
+    padding-bottom: 0px;
+    border-radius: 100%;
+}
+
+table.kts {
+    background-color: rgba(249, 249, 249, 0.12);
+    border-collapse: collapse;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+tr.kts:hover {
+    background-color: rgba(249, 249, 249, 0.28);
+    color: white;
+    cursor: pointer;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+}
+
+tr.kts:active {
+    background-color: rgba(249, 249, 249, 0.08);
+    color: white;
+    cursor: pointer;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+}
+
+div.socialtop {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 10pt;
+    text-align: center;
+    position: relative;
+    top: 130px;
+    color: rgba(255, 255, 255, 0.48);
+}
+
+a.sociallink {
+    color: rgba(255, 255, 255, 0.48);
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+}
+
+a.sociallink:hover {
+    color: rgb(255, 255, 255);
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+}
+
+.maincontent {
+    height: 700px;
+    width: 100%;
+    background-color: #eaeaea;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 200px;
+}
+
+.maincontent h2 {
+    letter-spacing: 2px;
+    font-size: 26pt;
+}
+
+.serviceball {
+    font-size: 36pt;
+    border-radius: 100%;
+    border: 4px solid rgba(68, 68, 68, 0.06);
+    color: #444;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+table.services {
+    width: 95%;
+    /*    border:2px solid red;*/
+    text-align: center;
+    color: #444;
+}
+
+table.services td {
+    /*    border:1px solid blue;*/
+    width: 33%;
+}
+
+table.services h2 {
+    font-size: 14pt;
+    text-align: center;
+}
+
+p.separator {
+    height: 0px;
+    width: 50%;
+    border-bottom: 2px solid rgba(68, 68, 68, 0.06);
+    text-align: center;
+}
+
+td.desc {
+    text-align: ;
+    padding-right: 5%;
+    padding-left: 5%;
+    font-size: 10pt;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #717171;
+}
+
+.pricingplan {
+    padding-top: 20px;
+    height: auto;
+    /*    padding-bottom:300px;*/
+}
+
+p.description{
+padding-left:10%;
+    padding-right:10%;
+}
+
+.priceboxmain {
+    width: 400px;
+    height: 600px;
+    border: 1px solid rgba(50, 190, 232, 0.91);
+    margin-bottom: 200px;
+    display: inline-block;
+    position: relative;
+    /*    top:50px;*/
+    background-color: white;
+    z-index: 999;
+/*    color:rgba(68, 68, 68, 0.73);*/
+/*    font-weight:300;*/
+    text-align:center;
+    
+}
+
+.priceboxmainmini {
+    width: 370px;
+    height: 550px;
+    /*    border:2px solid rgba(0, 0, 0, 0.17);*/
+    margin-bottom: 200px;
+    display: inline-block;
+    position: relative;
+    right: -20px;
+    background-color: white;
+    /*    top:25px;*/
+}
+
+.priceboxmainmini2 {
+    width: 370px;
+    height: 550px;
+    /*    border:2px solid rgba(255, 255, 255, 0.17);*/
+    margin-bottom: 200px;
+    display: inline-block;
+    position: relative;
+    left: -20px;
+    background-color: white;
+    /*    top:25px;*/
+}
+
+.pricemainhead {
+    height: 45px;
+    color: white;
+/*    background: linear-gradient(rgba(50, 190, 232, 0.91), rgba(36, 151, 185, 0.76));*/
+    background:rgba(50, 190, 232, 0.91);
+    line-height: 45px;
+    font-size: 12pt;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+.pricemainhead2 {
+    height: 45px;
+    color: #666;
+    background: rgba(244, 244, 244, 0.51);
+    line-height: 45px;
+    font-size: 12pt;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+.pricemainhead3 {
+    height: 45px;
+    color: #666;
+    background: rgba(244, 244, 244, 0.51);
+    line-height: 45px;
+    font-size: 12pt;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+h2.accountmanagement {
+    color:rgba(52, 52, 72, 0.91);
+    padding-bottom:2px;
+    
+    text-align:center;
+    FONT-WEIGHT:300;
+    padding-bottom:20px;
+}
+
+p.price {
+    color:rgba(52, 52, 72, 0.91);
+    font-size:55pt;
+    font-weight:bold;
+    display:inline-block;
+    position:relative;
+    top:-70px;
+    
+}
+
+p.month {
+    color:#c1c1c1;
+    font-size:12pt;
+    display:inline-block;
+    position:relative;
+    top:-79px;
+    letter-spacing:2px;
+}
+
+sup {
+    font-size:20pt;
+}
+
+p.separator2 {
+    height: 0px;
+    width: 100%;
+    border-bottom: 2px solid rgba(68, 68, 68, 0.06);
+    text-align: center;
+}
+
+.offers{
+    position:relative;
+    top:-115px;
+}
+
+a.packagebuttonblue {
+    background-color:rgba(50, 190, 232, 0.91);
+    border:2px solid rgba(50, 190, 232, 0.91);
+    padding:15px 45px;
+    border-radius:5px;
+    letter-spacing:2px;
+    color:white;
+    position:relative;
+    top:55px;
+    cursor:pointer;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+}
+
+a.packagebuttonblue:hover {
+    background-color:rgba(90, 213, 250, 0.91);
+     border-color:rgba(113, 222, 255, 0.91);
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+}
+
+a.packagebuttonblue:active {
+    top:65px;
+    
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+}
+
+
+a.packagebuttongrey {
+    border:2px solid rgba(50, 190, 232, 0.91);
+    color:rgba(50, 190, 232, 0.91);
+    padding:15px 45px;
+    border-radius:5px;
+    letter-spacing:2px;
+    position:relative;
+    top:50px;
+    cursor:pointer;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+}
+
+a.packagebuttongrey:hover {
+    background-color:rgba(90, 213, 250, 0.91);
+    border-color:rgba(113, 222, 255, 0.91);
+    color:white;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+}
+
+a.packagebuttongrey:active {
+    top:60px;
+    
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
 }

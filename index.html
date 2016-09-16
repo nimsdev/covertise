@@ -2,28 +2,27 @@
 <html>
 
 <head>
-    <title>Hevario - A Simle Marketing Solution</title>
+    <title>Covertise - A Simle Marketing Solution</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="button.css">
     <link rel="stylesheet" href="wow/css/libs/animate.css">
     <link rel="stylesheet" href="wow/css/site.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script type='text/javascript'>
-        $(window).load(function () {
-            var fixboxTop = $('.fixbox').offset().top;
-            $(window).scroll(function () {
-                var currentScroll = $(window).scrollTop();
-                if (currentScroll >= fixboxTop) {
-                    $('.fixbox').css({
-                        position: 'fixed'
-                        , top: '0px'
-                        , right: '0px'
-                    , });
-                }
-                else {
-                    $('.fixbox').css({
-                        position: 'static'
-                    });
+    <script>
+        $(function () {
+            $('a[href*=#]:not([href=#])').click(function () {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
                 }
             });
         });
@@ -32,24 +31,50 @@
 
 <body>
     <div class="heading"><img class="headlogo" src="photos/logo-white-bubbler-one.png" alt="logo">
-        <div class="menuheading">
-        <a href="">Marketing</a>
-        <a href="">Web &amp; Mobile</a>
-        
-            <div class="dropdown">
-  <a href="">Team</a>
-  <div class="dropdown-content">
-    <a class="membername">Jerry</a>
-    <a class="membername">Dave</a>
-    <a class="membername">Sasha</a>
-    <a class="membername">Timothy</a>
-    <a class="membername">Chloe</a>
+        <div class="menuheading"> <a href="">Marketing</a> <a href="">Web &amp; Mobile</a>
+            <div class="dropdown"> <a href="">Team</a>
+                <div class="dropdown-content">
+                    <table class="kts">
+                        <tr class="kts">
+                            <td class="ktsimg"> <img class="profile" src="photos/teamJoey.jpeg"></td>
+                            <td class="ktsname"><a class="membername">Joey</a> </td>
+                        </tr>
+                        <tr class="kts">
+                            <td class="ktsimg"> <img class="profile" src="photos/teamDavid.jpeg"></td>
+                            <td class="ktsname"><a class="membername">David</a> </td>
+                        </tr>
+                        <tr class="kts">
+                            <td class="ktsimg"> <img class="profile" src="photos/teamSasha.jpeg"></td>
+                            <td class="ktsname"><a class="membername">Sasha</a> </td>
+                        </tr>
+                        <tr class="kts">
+                            <td class="ktsimg"> <img class="profile" src="photos/teamTim.jpeg"></td>
+                            <td class="ktsname"><a class="membername">Tim</a> </td>
+                        </tr>
+                        <tr class="kts">
+                            <td class="ktsimg"> <img class="profile" src="photos/teamChloe.jpeg"></td>
+                            <td class="ktsname"><a class="membername">Chloe</a> </td>
+                        </tr>
+                    </table>
                 </div>
-            </div>
-        <a href="">Contact</a>
+            </div> <a href="">Contact</a> </div>
+        <h2 class="motto">marketing &amp; management </h2>
+        <p class="tagline">Simple tagline goes here Simple tagline goes here</p>
+        <center><a class="mainstartbutton" href="#intro">Get Started!</a></center>
+        <div class="socialtop">
+            <center>
+                <table>
+                    <tr>
+                        <td><a class="sociallink"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i>&nbsp; 3290</a>|</td>
+                        <td><a class="sociallink"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i>&nbsp;2672</a>|</td>
+                        <td><a class="sociallink"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i>&nbsp; 1223</a></td>
+                    </tr>
+                </table>
+            </center>
         </div>
-        <h2 class="motto">effective marketing &amp; management </h2></div>
+    </div>
     <!--heading-->
+    <h1 id="intro"></h1>
     <div class="secint">
         <center>
             <div class="secbox">
@@ -66,6 +91,113 @@
     </div>
     <!-- secint -->
     <!-- bottom -->
+    <div class="maincontent">
+        <h2 class="whatwedo">What We Do</h2> enter the mission or goals here --
+        <br>
+        <br>
+        <br>
+        <br>
+        <center>
+            <section class="wow fadeInUp" data-wow-offset="100" data-wow-delay="0.45s" style="height:auto;;margin-top:0;">
+                <table class="services">
+                    <tr>
+                        <td>
+                            <div class="serviceball"><i class="fa fa-line-chart" aria-hidden="true"></i></div>
+                        </td>
+                        <td>
+                            <div class="serviceball"><i class="fa fa-desktop" aria-hidden="true"></i></div>
+                        </td>
+                        <td>
+                            <div class="serviceball"><i class="fa fa-code" aria-hidden="true"></i></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                            <h2>Marketing</h2>
+                            <center>
+                                <p class="separator"></p>
+                            </center>
+                        </td>
+                        <td>
+                            <br>
+                            <h2>Web &amp; Mobile Services</h2>
+                            <center>
+                                <p class="separator"></p>
+                            </center>
+                        </td>
+                        <td>
+                            <br>
+                            <h2>Web Site Redesign</h2>
+                            <center>
+                                <p class="separator"></p>
+                            </center>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="desc">desc.</td>
+                        <td class="desc">We can create a website or an app (or both) for your company. If your company started yesterday, or 20 years ago, it needs a presence online and on movile devices.</td>
+                        <td class="desc">If your website looks like it's stuck in the 90s, please let us help you get a modern makeover, and help you grow your online presence.
+                            <!--Nostalgia is great, but in the age of technology &amp; digital media, sleek and simlpe is in.-->
+                        </td>
+                    </tr>
+                </table>
+            </section>
+        </center>
+        
+        <div class="pricingplan">
+            <h2 class="accountmanagement">Account Management</h2>
+            <center>
+                <section class="wow slideInRight" data-wow-offset="100" data-wow-delay="1.25s" style="height:auto;;margin-top:0;display:inline-block;">
+                    <div class="priceboxmainmini">
+                        <div class="pricemainhead2"> heading 1 </div>
+                        <p class="description">Simple text describing the benefits, and the use of this package</p>
+                        <p class="price"><sup>$</sup>29</p>
+                        <p class="month">/MONTH</p>
+                        <div class="offers">
+                            <p class="packageoffer">Included item 1</p>
+                            <p class="separator2"></p>
+                            <p class="packageoffer">Included item 2</p>
+                            <p class="separator2"></p>
+                            <p class="packageoffer">Included item 3</p>
+                            <p class="separator2"></p>
+                            <p class="packageoffer">Included item 4</p> <a class="packagebuttongrey">Get Started</a> </div>
+                    </div>
+                </section>
+                <div class="priceboxmain">
+                    <div class="pricemainhead"> Premium </div>
+                    <br>
+                    <p class="description">Simple text describing the benefits, and the use of this package</p>
+                    <p class="price"><sup>$</sup>49</p>
+                    <p class="month">/MONTH</p>
+                    <div class="offers">
+                        <p class="packageoffer">Included item 1</p>
+                        <p class="separator2"></p>
+                        <p class="packageoffer">Included item 2</p>
+                        <p class="separator2"></p>
+                        <p class="packageoffer">Included item 3</p>
+                        <p class="separator2"></p>
+                        <p class="packageoffer">Included item 4</p> <a class="packagebuttonblue">Get Started</a> </div>
+                </div>
+                <section class="wow slideInLeft" data-wow-offset="100" data-wow-delay="1.25s" style="height:auto;;margin-top:0;display:inline-block;">
+                    <div class="priceboxmainmini2">
+                        <div class="pricemainhead3"> Heading 2 </div>
+                        <p class="description">Simple text describing the benefits, and the use of this package</p>
+                        <p class="price"><sup>$</sup>69</p>
+                        <p class="month">/MONTH</p>
+                        <div class="offers">
+                            <p class="packageoffer">Included item 1</p>
+                            <p class="separator2"></p>
+                            <p class="packageoffer">Included item 2</p>
+                            <p class="separator2"></p>
+                            <p class="packageoffer">Included item 3</p>
+                            <p class="separator2"></p>
+                            <p class="packageoffer">Included item 4</p> <a class="packagebuttongrey">Get Started</a> </div>
+                    </div>
+                </section>
+            </center>
+        </div>
+    </div>
     <script src="wow/dist/wow.min.js"></script>
     <script>
         wow = new WOW({
