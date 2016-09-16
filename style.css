@@ -12,10 +12,15 @@ body {
     width: 100%;
 }
 
+.holder {
+    height: 700px;
+}
+
 .heading {
-    height: 600px;
+    height: 96%;
+    position: relative;
     width: 100%;
-    background: linear-gradient(rgba(255, 140, 105, 0.92), rgba(50, 190, 232, 0.91)), url(photos/work3.jpeg) fixed;
+    background: linear-gradient(to bottom left, rgba(255, 140, 105, 0.92), rgba(50, 190, 232, 0.91)), url(photos/work3.jpeg) fixed;
     background-size: 100% 100%;
     background-position: center center;
 }
@@ -120,7 +125,7 @@ a.membername:active {
 
 h2.motto {
     color: #FFFFFF;
-    font-size: 36pt;
+    font-size: 26pt;
     letter-spacing: 4px;
     font-weight: lighter;
     text-transform: capitalize;
@@ -325,9 +330,9 @@ td.desc {
     /*    padding-bottom:300px;*/
 }
 
-p.description{
-padding-left:10%;
-    padding-right:10%;
+p.description {
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .priceboxmain {
@@ -340,10 +345,9 @@ padding-left:10%;
     /*    top:50px;*/
     background-color: white;
     z-index: 999;
-/*    color:rgba(68, 68, 68, 0.73);*/
-/*    font-weight:300;*/
-    text-align:center;
-    
+    /*    color:rgba(68, 68, 68, 0.73);*/
+    /*    font-weight:300;*/
+    text-align: center;
 }
 
 .priceboxmainmini {
@@ -373,8 +377,8 @@ padding-left:10%;
 .pricemainhead {
     height: 45px;
     color: white;
-/*    background: linear-gradient(rgba(50, 190, 232, 0.91), rgba(36, 151, 185, 0.76));*/
-    background:rgba(50, 190, 232, 0.91);
+    /*    background: linear-gradient(rgba(50, 190, 232, 0.91), rgba(36, 151, 185, 0.76));*/
+    background: rgba(50, 190, 232, 0.91);
     line-height: 45px;
     font-size: 12pt;
     font-weight: lighter;
@@ -402,35 +406,33 @@ padding-left:10%;
 }
 
 h2.accountmanagement {
-    color:rgba(52, 52, 72, 0.91);
-    padding-bottom:2px;
-    
-    text-align:center;
-    FONT-WEIGHT:300;
-    padding-bottom:20px;
+    color: rgba(52, 52, 72, 0.91);
+    padding-bottom: 2px;
+    text-align: center;
+    FONT-WEIGHT: 300;
+    padding-bottom: 20px;
 }
 
 p.price {
-    color:rgba(52, 52, 72, 0.91);
-    font-size:55pt;
-    font-weight:bold;
-    display:inline-block;
-    position:relative;
-    top:-70px;
-    
+    color: rgba(52, 52, 72, 0.91);
+    font-size: 55pt;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    top: -70px;
 }
 
 p.month {
-    color:#c1c1c1;
-    font-size:12pt;
-    display:inline-block;
-    position:relative;
-    top:-79px;
-    letter-spacing:2px;
+    color: #c1c1c1;
+    font-size: 12pt;
+    display: inline-block;
+    position: relative;
+    top: -79px;
+    letter-spacing: 2px;
 }
 
 sup {
-    font-size:20pt;
+    font-size: 20pt;
 }
 
 p.separator2 {
@@ -440,69 +442,66 @@ p.separator2 {
     text-align: center;
 }
 
-.offers{
-    position:relative;
-    top:-115px;
+.offers {
+    position: relative;
+    top: -115px;
 }
 
 a.packagebuttonblue {
-    background-color:rgba(50, 190, 232, 0.91);
-    border:2px solid rgba(50, 190, 232, 0.91);
-    padding:15px 45px;
-    border-radius:5px;
-    letter-spacing:2px;
-    color:white;
-    position:relative;
-    top:55px;
-    cursor:pointer;
+    background-color: rgba(50, 190, 232, 0.91);
+    border: 2px solid rgba(50, 190, 232, 0.91);
+    padding: 15px 45px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    color: white;
+    position: relative;
+    top: 55px;
+    cursor: pointer;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
 }
 
 a.packagebuttonblue:hover {
-    background-color:rgba(90, 213, 250, 0.91);
-     border-color:rgba(113, 222, 255, 0.91);
+    background-color: rgba(90, 213, 250, 0.91);
+    border-color: rgba(113, 222, 255, 0.91);
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
 }
 
 a.packagebuttonblue:active {
-    top:65px;
-    
+    top: 65px;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
 }
 
-
 a.packagebuttongrey {
-    border:2px solid rgba(50, 190, 232, 0.91);
-    color:rgba(50, 190, 232, 0.91);
-    padding:15px 45px;
-    border-radius:5px;
-    letter-spacing:2px;
-    position:relative;
-    top:50px;
-    cursor:pointer;
+    border: 2px solid rgba(50, 190, 232, 0.91);
+    color: rgba(50, 190, 232, 0.91);
+    padding: 15px 45px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    position: relative;
+    top: 50px;
+    cursor: pointer;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
 }
 
 a.packagebuttongrey:hover {
-    background-color:rgba(90, 213, 250, 0.91);
-    border-color:rgba(113, 222, 255, 0.91);
-    color:white;
+    background-color: rgba(90, 213, 250, 0.91);
+    border-color: rgba(113, 222, 255, 0.91);
+    color: white;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
 }
 
 a.packagebuttongrey:active {
-    top:60px;
-    
+    top: 60px;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
