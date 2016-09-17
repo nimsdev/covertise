@@ -1,124 +1,108 @@
-
-.containertestbox{
-  width:500px;
-  min-height:315px;
-  margin:0 auto;
-  position:relative;
-  padding-bottom:30px;
-  overflow:hidden;
-    margin-bottom:200px;
-    
+.containertestbox {
+    width: 500px;
+    min-height: 315px;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 30px;
+    overflow: hidden;
 }
 
 input[type="radio"] {
-position: absolute;
-width: 1px; /* Setting this to 0 make it invisible for VoiceOver */
-height: 1px; /* Setting this to 0 make it invisible for VoiceOver */
-padding: 0;
-margin: -1px;
-border: 0;
-clip: rect(0 0 0 0);
-overflow: hidden;
-}
-label{
-  display:block;
-  width:32%;
-  border: 4px solid white;
-  position:absolute;
-  bottom:5px;
-  cursor: pointer;
-  transition: border-color 0.3s linear;
+    position: absolute;
+    width: 1px;
+    /* Setting this to 0 make it invisible for VoiceOver */
+    height: 1px;
+    /* Setting this to 0 make it invisible for VoiceOver */
+    padding: 0;
+    margin: -1px;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
-label.second{
-  left:34%;
-}
-label.third{
-  left:68%;
-}
-
-blockquote{
-  margin:0;
-  padding:30px;
-  width:500px;
-  background-color: #DB532B;
-  color:white;
-  box-shadow: 0 5px 2px rgba(0,0,0,0.1);
-  position:relative;
-  transition: background-color 0.6s linear;
+label {
+    display: block;
+    width: 30%;
+    border: 4px solid rgba(255, 255, 255, 0.45);
+    position: absolute;
+    bottom: 5px;
+    cursor: pointer;
+    transition: border-color 0.3s linear;
+    
+   
+    
 }
 
-blockquote:after { 
-  content: " "; 
-  height: 0; 
-  width: 0; 
-  position: absolute; 
-  top: 100%; 
-  border: solid transparent; 
-  border-top-color: #DA532B;
-  border-left-color:#DA532B;
-  border-width: 10px; 
-  left: 10%; 
-} 
-#second:checked ~ .two blockquote {
-  background-color:purple;
-}
-.two blockquote:after{
-  border: solid transparent; 
-  border-top-color: purple;
-  border-left-color:purple;
-  border-width: 10px;
-}
-#third:checked ~ .three blockquote{
-  background-color:#54885F;
-}
-.three blockquote:after{
-  border: solid transparent; 
-  border-top-color: #54885F;
-  border-left-color: #54885F;
-  border-width: 10px;
-}
-.quotes{
-  position:absolute;
-  color:rgba(255,255,255,0.5);
-  font-size:5em;
-}
-.leftq{
-  top:-25px;
-  left:5px;
-}
-.rightq{
-  bottom:-10px;
-  right:5px;
+label.second {
+    left: 34%;
 }
 
-.slide{
-  position:absolute;
-  left:-100%;
-  opacity:0;
-  transition: all 0.6s ease-in;
+label.third {
+    left: 68%;
+}
+
+
+
+.slide {
+    position: absolute;
+    /*  left:-100%;*/
+    width: 100%;
+    opacity: 0;
+    transition: all 0.6s ease-in;
+}
+
+.testimonialbox {
+    background: linear-gradient(to bottom left, rgba(203, 212, 149, 0.8), rgba(50, 190, 232, 0.81)), url(https://hd.unsplash.com/photo-1414690165279-49ab0a9a7e66) fixed;
+    width: 100%;
+    color: white !important;
+    background-size: 100% 100%;
+    background-position: center center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-weight: lighter;
+    text-shadow: 2px 2px rgba(5, 5, 5, 0.5);
+    letter-spacing: 2px;
+}
+
+.testimonialbox p {
+    font-size: 14pt;
+    font-weight: lighter;
+    text-shadow: 2px 2px rgba(5, 5, 5, 0.5);
+    letter-spacing: 2px;
+}
+
+img.persontest {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    display: block;
+    border: 2px solid white;
 }
 
 #first:checked ~ label.first {
-  border-width:6px;
-  border-color:#DB532B;
+
+    border-color: #ffffff;
 }
+
 #second:checked ~ label.second {
-  border-width:6px; border-color:purple;
+    border-color: #ffffff;
 }
+
 #third:checked ~ label.third {
-  border:6px solid #54885F;
+     border-color: #ffffff;
 }
 
 #first:checked ~ div.one {
-  left:0;
-  opacity:1;
+    left: 0;
+    opacity: 1;
 }
+
 #second:checked ~ div.two {
-  left:0;
-  opacity:1;
+    left: 0;
+    opacity: 1;
 }
+
 #third:checked ~ div.three {
-  left:0;
-  opacity:1;
+    left: 0;
+    opacity: 1;
 }
