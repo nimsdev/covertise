@@ -506,3 +506,10 @@ a.packagebuttongrey:active {
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
 }
+
+img.persontest {
+    border-radius: 100%;
+    width:100px;
+    height:100px;
+    display: block;
+}
