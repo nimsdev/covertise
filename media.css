@@ -1,0 +1,163 @@
+@media only screen and (min-width: 320px) and (max-width: 680px) {
+    .priceboxmain {
+        width: 90%;
+        height: 600px;
+        /*        border: 1px solid rgba(50, 190, 232, 0.91);*/
+        display: block;
+        background-color: white;
+        z-index: 9;
+        text-align: center;
+        margin-bottom: 15px !important;
+    }
+    .priceboxmainmini2 {
+        width: 90%;
+        height: 600px;
+        /*        border: 1px solid rgba(50, 190, 232, 0.91);*/
+        display: inline-block;
+        background-color: white;
+        z-index: 9;
+        text-align: center;
+        margin-left: 35px;
+    }
+    .priceboxmainmini {
+        width: 90%;
+        height: 600px;
+        /*        border: 1px solid rgba(50, 190, 232, 0.91);*/
+        display: inline-block;
+        background-color: white;
+        z-index: 9;
+        text-align: center;
+        margin-right: 35px;
+        margin-bottom: -45px !important;
+        float: left;
+    }
+    a.menuitem {
+        display: none;
+    }
+    .header {
+        background: url(photos/logo-white-bubbler-one.png);
+        background-size: 150px;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .header.scrolling {
+        background-size: 170px;
+        background-position: center center;
+    }
+    h2.motto {
+        padding-top: 120px;
+    }
+    .heading {
+        height: 500px;
+        background: linear-gradient(to bottom left, rgba(255, 140, 105, 0.92), rgba(50, 190, 232, 0.91)), url(photos/work3.jpeg) absolute;
+        background-size: 100% 800px;
+        background-repeat: no-repeat;
+    }
+    .videooverlay1,
+    .socialtop {
+        display: none;
+    }
+    p.tagline {
+        padding-left: 10%;
+        padding-right: 10%;
+        position: relative;
+        top: 10px;
+    }
+    .secbox {
+        width: 100%;
+    }
+    .secint img {
+        width: 100%;
+    }
+    .pricingplan {
+        padding-top: 0px;
+    }
+    .containertestbox {
+        width: 100%;
+        height: auto;
+        min-height: 365px;
+    }
+    label {
+        bottom: 5px;
+    }
+    .testimonialbox {
+        background: linear-gradient(to bottom left, rgba(203, 212, 149, 0.8), rgba(50, 190, 232, 0.81));
+        width: 100%;
+        color: white !important;
+        background-size: 100% 100%;
+        background-position: center center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        font-weight: lighter;
+        text-shadow: 2px 2px rgba(5, 5, 5, 0.5);
+        letter-spacing: 2px;
+    }
+    .contactbox {
+        width: 95%;
+    }
+    input.contact1,
+    input.contact2 {
+        width: 81%;
+        float: left;
+        display: block;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    input.contact2 {
+        margin-bottom:10px;
+    }
+    a.contactus {
+        width: 100%;
+        margin-right: 0;
+        float: none;
+    }
+    
+    
+    textarea.contact {
+        width:81%;
+        float:none;
+        margin-left:0;
+        margin-right:10px;
+    }
+    
+    .footer {
+        background: #333;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and {
+    .priceboxmain {
+        width: 90%;
+        height: 600px;
+        /*        border: 1px solid rgba(50, 190, 232, 0.91);*/
+        display: block;
+        background-color: white;
+        z-index: 9;
+        text-align: center;
+        margin-bottom: 15px !important;
+    }
+    .priceboxmainmini2 {
+        width: 90%;
+        height: 600px;
+        /*        border: 1px solid rgba(50, 190, 232, 0.91);*/
+        display: inline-block;
+        background-color: white;
+        z-index: 9;
+        text-align: center;
+        margin-left: 35px;
+    }
+    .priceboxmainmini {
+        width: 90%;
+        height: 600px;
+        /*        border: 1px solid rgba(50, 190, 232, 0.91);*/
+        display: inline-block;
+        background-color: white;
+        z-index: 9;
+        text-align: center;
+        margin-right: 35px;
+        margin-bottom: -45px !important;
+        float: left;
+    }
+    
+}
