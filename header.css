@@ -47,6 +47,11 @@ color:#32bee8 !important;
 
 }
 
+.scrolling a:hover {
+    border-bottom:2px solid #32bee8 !important;
+    
+}
+
 .header .brand {
     display: inline-block;
     font-size: 16px;
@@ -104,6 +109,8 @@ a.menuitem {
     margin-left: -11px;
     margin-right: -11px;
     font-size: 10pt;
+    padding-bottom:13px;
+    border-bottom:3px solid transparent;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
@@ -113,6 +120,7 @@ a.menuitem {
 
 a.menuitem:hover {
     color: #fff;
+/*    border-bottom-color:rgba(255, 255, 255, 0.43);*/
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
