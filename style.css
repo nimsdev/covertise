@@ -10,16 +10,21 @@ body {
     background-color: #eaeaea;
     height: auto;
     width: 100%;
+    margin-top:-32px;
 }
 
 .holder {
     height: 700px;
+    margin:0 auto;
+    padding:0 auto;
+    
 }
 
 .heading {
-    height: 96%;
+    height: 700px;
     position: relative;
     width: 100%;
+    
     background: linear-gradient(to bottom left, rgba(255, 140, 105, 0.92), rgba(50, 190, 232, 0.91)), url(photos/work3.jpeg) fixed;
     background-size: 100% 100%;
     background-position: center center;
@@ -130,7 +135,7 @@ h2.motto {
     font-weight: lighter;
     text-transform: capitalize;
     text-align: center;
-    padding-top: 150px;
+    padding-top: 275px;
     text-shadow: 2px 2px rgba(51, 51, 51, 0.34);
 }
 
@@ -344,7 +349,7 @@ p.description {
     position: relative;
     /*    top:50px;*/
     background-color: white;
-    z-index: 999;
+    z-index: 9;
     /*    color:rgba(68, 68, 68, 0.73);*/
     /*    font-weight:300;*/
     text-align: center;
@@ -513,6 +518,8 @@ a.packagebuttongrey:active {
     padding-bottom: 200px;
     text-align: center;
     height: auto;
+    background:url(photos/hotlinebling.png);
+    background-size:0%;
 }
 
 .contactsection h2 {

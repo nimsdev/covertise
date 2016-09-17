@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="zvidslid/b.js">
     <link rel="stylesheet" href="zvidslid/c.js">
     <link rel="stylesheet" href="testimonials/t.css">
+    <link rel="stylesheet" href="header.css">
     <!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.5/css/swiper.min.css">-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -35,54 +36,51 @@
             });
         });
     </script>
+    <script>
+        $(window).scroll(function () {
+            var scroll = $(window).scrollTop();
+            if (scroll >= 150) {
+                $(".header").addClass("scrolling");
+            }
+            else {
+                $(".header").removeClass("scrolling");
+            }
+        });
+    </script>
 </head>
 
 <body>
-    <div class="holder">
-        <div class="heading"> <img class="headlogo" src="photos/logo-white-bubbler-one.png" alt="logo">
-            <div class="menuheading"> <a href="">Marketing</a> <a href="">Web &amp; Mobile</a>
-                <div class="dropdown"> <a href="">Team</a>
-                    <div class="dropdown-content">
-                        <table class="kts">
-                            <tr class="kts">
-                                <td class="ktsimg"> <img class="profile" src="photos/teamJoey.jpeg"></td>
-                                <td class="ktsname"><a class="membername">Joey</a> </td>
-                            </tr>
-                            <tr class="kts">
-                                <td class="ktsimg"> <img class="profile" src="photos/teamDavid.jpeg"></td>
-                                <td class="ktsname"><a class="membername">David</a> </td>
-                            </tr>
-                            <tr class="kts">
-                                <td class="ktsimg"> <img class="profile" src="photos/teamSasha.jpeg"></td>
-                                <td class="ktsname"><a class="membername">Sasha</a> </td>
-                            </tr>
-                            <tr class="kts">
-                                <td class="ktsimg"> <img class="profile" src="photos/teamTim.jpeg"></td>
-                                <td class="ktsname"><a class="membername">Tim</a> </td>
-                            </tr>
-                            <tr class="kts">
-                                <td class="ktsimg"> <img class="profile" src="photos/teamChloe.jpeg"></td>
-                                <td class="ktsname"><a class="membername">Chloe</a> </td>
-                            </tr>
-                        </table>
-                    </div>
-                </div> <a href="">Contact</a> </div>
-            <h2 class="motto">marketing, management, &amp; design </h2>
-            <p class="tagline">Simple tagline goes here Simple tagline goes here</p>
-            <center><a class="mainstartbutton" href="#intro">Get Started!</a></center>
-            <div class="socialtop">
-                <center>
-                    <table>
-                        <tr>
-                            <td><a class="sociallink"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i>&nbsp; 3290</a>|</td>
-                            <td><a class="sociallink"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i>&nbsp;2672</a>|</td>
-                            <td><a class="sociallink"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i>&nbsp; 1223</a></td>
-                        </tr>
-                    </table>
-                </center>
-            </div>
+    <!--    <div class="holder">-->
+    <div class="heading">
+        <header class="header">
+            <ul class="header-ul">
+                 
+                <li><a href="#about" class="menuitem">Marketing</a></li>
+                <li><a href="#services" class="menuitem">Web &amp; Mobile</a></li>
+                <li><a href="#team" class="menuitem">Our Team</a></li>
+                <li><a href="#pricing" class="menuitem">Pricing</a></li>
+                <li><a href="#footer" class="menuitem">Contact</a></li>
+            </ul>
+            <h3 class="brand"> 
+<!--                <img class="headlogo2" src="photos/logo-white-bubbler-one.png" alt="logo">-->
+                
+</h3> </header>
+        <h2 class="motto">marketing, management, &amp; design </h2>
+        <p class="tagline">Simple tagline goes here Simple tagline goes here</p>
+        <center><a class="mainstartbutton" href="#intro">Get Started!</a></center>
+        <div class="socialtop">
+            <center>
+                <table>
+                    <tr>
+                        <td><a class="sociallink"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i>&nbsp; 3290</a>|</td>
+                        <td><a class="sociallink"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i>&nbsp;2672</a>|</td>
+                        <td><a class="sociallink"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i>&nbsp; 1223</a></td>
+                    </tr>
+                </table>
+            </center>
         </div>
     </div>
+    <!--    </div>-->
     <!--holder-->
     <!--heading-->
     <h1 id="intro"></h1>
@@ -266,15 +264,10 @@
                     <h2>Get In Touch</h2>
                     <input class="contact1" placeholder="name">
                     <input class="contact2" placeholder="email">
-                    
                     <textarea class="contact" placeholder="message"></textarea> <a class="contactus">Contact Us</a> </div>
             </center>
         </div>
-        
-        <div class="footer">
-         <img class="headlogo" src="photos/logo-white-bubbler-one.png" alt="logo">//////
-        </div>
-        
+        <div class="footer"> <img class="headlogo" src="photos/logo-white-bubbler-one.png" alt="logo">////// </div>
         <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     </div>
     <script src="wow/dist/wow.min.js"></script>

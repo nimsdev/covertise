@@ -23,39 +23,33 @@ input[type="radio"] {
 label {
     display: block;
     width: 30%;
-    border: 1px solid rgba(255, 255, 255, 0.19);
+    border: 2px solid rgba(255, 255, 255, 0.19);
     position: absolute;
     bottom: 5px;
     cursor: pointer;
     transition: border-color 0.3s linear;
-    
-   height:60px;
-   width:60px;
-   
-    background:url(http://www.jonathanbelok.com/covertise/photos/person1.jpeg) no-repeat;
-    background-size:100% 100%;
-    
-    border-radius:100%;
-    left:27%;
+    height: 60px;
+    width: 60px;
+    background: url(http://www.jonathanbelok.com/covertise/photos/person1.jpeg) no-repeat;
+    background-size: 100% 100%;
+    border-radius: 100%;
+    left: 27%;
 }
-
-
 
 label.second {
     left: 43%;
-    background:url(http://www.jonathanbelok.com/covertise/photos/person2.jpeg) no-repeat;
-    background-size:100% 100%;
-    border-radius:100%;
+    background: url(http://www.jonathanbelok.com/covertise/photos/person2.jpeg) no-repeat;
+    background-size: 100% 100%;
+    border-radius: 100%;
+    
 }
 
 label.third {
     left: 59%;
-    background:url(http://www.jonathanbelok.com/covertise/photos/person3.jpeg) no-repeat;
-    background-size:100% 100%;
-    border-radius:100% !important;
+    background: url(http://www.jonathanbelok.com/covertise/photos/person3.jpeg) no-repeat;
+    background-size: 100% 100%;
+    border-radius: 100% !important;
 }
-
-
 
 .slide {
     position: absolute;
@@ -94,17 +88,15 @@ img.persontest {
 }
 
 #first:checked ~ label.first {
-
     border-color: #ffffff;
 }
 
 #second:checked ~ label.second {
     border-color: #ffffff;
-    
 }
 
 #third:checked ~ label.third {
-     border-color: #ffffff;
+    border-color: #ffffff;
 }
 
 #first:checked ~ div.one {
