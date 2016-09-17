@@ -13,8 +13,8 @@
     width:100%;
     z-index:9999999;
     border-bottom:2px solid transparent;
-    background:url(photos/logo-white-bubbler-one.png);
-    background-size:180px;
+    background:url(photos/logowhite_.png);
+    background-size:150px;
     background-position:20px center;
     background-repeat:no-repeat;
     
@@ -34,7 +34,7 @@ background-color: #FFF;
     z-index: 99;
     padding-top:5px;
     padding-bottom:5px;
-/*    border-color:rgba(50, 190, 232, 0.91);*/
+    border-color:#eaeaea;
     background:url(photos/logoblack.png);
      background-size:150px;
     background-position:20px center;
