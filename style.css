@@ -10,22 +10,20 @@ body {
     background-color: #eaeaea;
     height: auto;
     width: 100%;
-    margin-top:-32px;
+    margin-top: -32px;
 }
 
 .holder {
     height: 700px;
-    margin:0 auto;
-    padding:0 auto;
-    
+    margin: 0 auto;
+    padding: 0 auto;
 }
 
 .heading {
     height: 700px;
     position: relative;
     width: 100%;
-    
-    background: linear-gradient(to bottom left, rgba(255, 140, 105, 0.92), rgba(50, 190, 232, 0.91)), url(photos/work3.jpeg) fixed;
+    background: linear-gradient(to bottom left, rgba(255, 140, 105, 0.92), rgba(50, 190, 232, 0.91)), url(photos/work4.jpeg) fixed;
     background-size: 100% 100%;
     background-position: center center;
 }
@@ -518,7 +516,7 @@ a.packagebuttongrey:active {
     padding-bottom: 200px;
     text-align: center;
     height: auto;
-    background-size:0%;
+    background-size: 0%;
 }
 
 .contactsection h2 {
@@ -558,7 +556,6 @@ input.contact1 {
     background-repeat: no-repeat;
     background-size: 40px 40px;
     background-blend-mode: lighten;
-    
 }
 
 input.contact2 {
@@ -656,7 +653,7 @@ a.contactus:active {
     transition-property: color;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
-        display: block;
+    display: block;
     width: 300px;
     float: right;
     margin-right: 15px;
@@ -688,7 +685,7 @@ a.contactus:active {
     left: 0;
     right: 0;
     background: rgba(255, 140, 105, 0.92);
-    border-radius:6px;
+    border-radius: 6px;
     /*    background: linear-gradient(rgba(255, 140, 105, 0.92), rgba(50, 190, 232, 0.71));*/
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
@@ -700,7 +697,6 @@ a.contactus:active {
     transition-duration: 0.3s;
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
-    
 }
 
 .contactus:hover,
@@ -728,4 +724,3 @@ a.contactus:active {
     text-shadow: 2px 2px rgba(5, 5, 5, 0.5);
     letter-spacing: 2px;
 }
-
